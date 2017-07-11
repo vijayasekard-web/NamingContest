@@ -1,12 +1,19 @@
 import React from 'react';
 
-const Header = ({message})=> {
-  return(
+// const Header = ({message})=> {
+//   return(
+//        <h2 className="text-center">
+//       {message}
+//       </h2>
+//       )
+// }
+
+const Header = ({message})=> (
        <h2 className="text-center">
       {message}
       </h2>
       )
-}
+
 
 Header.propTypes = {
   message: React.PropTypes.string.isRequired

@@ -1,9 +1,7 @@
+<script type='text/javascript'>
+  window.initialData = <%- JSON.stringify(initialData) -%>
+</script>
+
 <%- include('header') -%>
-
-<p>My first Random New</p>
-
-<div id="root">  </div>
-<p><%- content + ' ' + Math.random() %></p>
-
-
+  <div id="root"><%- initialMarkup -%></div>
 <%- include('footer') -%>
